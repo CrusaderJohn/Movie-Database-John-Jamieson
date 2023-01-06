@@ -1,15 +1,11 @@
-INSERT INTO book_prices (price)
-VALUES (1),
-       (2),
-       (5),
-       (10),
-       (15);
+INSERT INTO movies (movie_name)
+VALUES ("Dune", 2021),
+       ("Dune", 1984),
+       ("The Thing", 1982),
+       ("Event Horizon", 1997);
 
-INSERT INTO favorite_books (book_name, in_stock, book_price)
-VALUES ("The Great Gatsby", true, 1),
-       ("Huckleberry Finn", true, 3),
-       ("100 Years of Solitude", false, 5),
-       ("Things Fall Apart", false, 1),
-       ("Crime and Punishment", true, 2),
-       ("Moby Dick", true, 4),
-       ("Decameron", false, 1);
+INSERT INTO reviews (movie_id, review)
+VALUES (1, "Great"),
+       (2, "Good"),
+       (3, "Best"),
+       (4, "Best movie of 1997");
