@@ -1,4 +1,4 @@
-INSERT INTO movies (movie_name)
+INSERT INTO movies (movie_name, movie_year)
 VALUES ("Dune", 2021),
        ("Dune", 1984),
        ("The Thing", 1982),
